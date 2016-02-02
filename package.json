@@ -1,0 +1,39 @@
+{
+  "name": "nodezoo-stats",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "Stats collection for nodezoo",
+  "author": "Dean McDonnell (http://mcdonnelldean.me)",
+  "main": "stats.js",
+  "scripts": {
+    "start:dev": "node srv/dev.js",
+    "test": "lab -v ./test/*.test.js -m 4000",
+    "lint": "lab -dL"
+  },
+  "pre-commit": [
+    "test",
+    "lint"
+  ],
+  "homepage": "https://github.com/nodezoo/nodezoo-stats#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodezoo/nodezoo-stats.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nodezoo/nodezoo-stats/issues"
+  },
+  "keywords": [
+    "nodezoo",
+    "microservices",
+    "seneca"
+  ],
+  "dependencies": {
+    "eslint-config-seneca": "^1.1.2",
+    "eslint-plugin-hapi": "^4.0.0",
+    "eslint-plugin-standard": "^1.3.1",
+    "lab": "^8.2.0",
+    "pre-commit": "^1.1.2",
+    "seneca": "^1.0.0",
+    "seneca-msgstats": "^0.2.0"
+  }
+}
