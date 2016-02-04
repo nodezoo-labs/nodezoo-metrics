@@ -2,12 +2,16 @@
 
 // create our options
 const opts = {
-  msgstats: {
-    collect: true
+  stats: {
+    collector: true
+  },
+  mesh: {
+    base: true
   }
 }
 
 // fire up our service
 require('seneca')()
-  .use('../stats')
-  .use('msgstats', opts.msgstats)
+  .use('stats', opts.stats)
+  .use('toolbag-stats')
+  .use('mesh', opts.mesh)
