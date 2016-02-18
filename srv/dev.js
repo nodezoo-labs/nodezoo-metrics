@@ -1,17 +1,23 @@
 'use strict'
 
-// create our options
-const opts = {
-  stats: {
-    collector: true
+var opts = {
+  metrics: {
+    collector: {
+      enabled: true
+    }
+  },
+  toolbag_metrics: {
+  },
+  influx_sink: {
+    influx: {host: '192.168.99.100'}
   },
   mesh: {
     base: true
   }
 }
 
-// fire up our service
 require('seneca')()
-  .use('stats', opts.stats)
-  .use('toolbag-stats')
+  .use('vidi-metrics', opts.metrics)
+  .use('vidi-toolbag-metrics', opts.toolbag_metrics)
+  .use('vidi-influx-sink', opts.influx_sink)
   .use('mesh', opts.mesh)
