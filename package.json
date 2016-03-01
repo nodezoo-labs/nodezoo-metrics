@@ -30,7 +30,7 @@
     "toolbag": "0.9.0",
     "vidi-influx-sink": "0.2.1",
     "vidi-metrics": "0.1.0",
-    "vidi-seneca-metrics": "vidi-insights/vidi-seneca-metrics#mvp",
+    "vidi-seneca-metrics": "0.1.0",
     "vidi-toolbag-metrics": "0.2.0"
   }
 }
