@@ -1,5 +1,5 @@
 {
-  "name": "nodezoo-stats",
+  "name": "nodezoo-metrics",
   "version": "0.0.1",
   "license": "MIT",
   "description": "Stats collection for nodezoo",
