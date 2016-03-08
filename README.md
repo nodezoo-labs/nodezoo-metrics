@@ -50,4 +50,4 @@ Licensed under [MIT][].
 [nearForm]: http://www.nearform.com/
 [NodeZoo]: http://www.nodezoo.com/
 [NodeZoo org]: https://github.com/nodezoo
-[Logo]: https://raw.githubusercontent.com/nodezoo/org/master/assets/img/logo-nodezoo.png
+[Logo]: https://raw.githubusercontent.com/nodezoo/nodezoo-org/master/assets/logo-nodezoo.png
