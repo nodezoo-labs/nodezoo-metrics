@@ -2,19 +2,19 @@
   "name": "nodezoo-metrics",
   "version": "0.0.1",
   "license": "MIT",
-  "description": "Stats collection for nodezoo",
+  "description": "Metric collection for nodezoo",
   "author": "Dean McDonnell (http://mcdonnelldean.me)",
   "main": "metrics.js",
   "scripts": {
-    "start": "node -r toolbag srv/dev.js"
+    "start": "node -r toolbag srv/metrics-dev.js"
   },
-  "homepage": "https://github.com/nodezoo/nodezoo-stats#readme",
+  "homepage": "https://github.com/nodezoo/nodezoo-metrics#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nodezoo/nodezoo-stats.git"
+    "url": "git+https://github.com/nodezoo/nodezoo-metrics.git"
   },
   "bugs": {
-    "url": "https://github.com/nodezoo/nodezoo-stats/issues"
+    "url": "https://github.com/nodezoo/nodezoo-metrics/issues"
   },
   "keywords": [
     "nodezoo",
@@ -30,6 +30,7 @@
     "toolbag": "0.9.0",
     "vidi-influx-sink": "0.2.1",
     "vidi-metrics": "0.1.0",
+    "vidi-seneca-metrics": "0.2.0",
     "vidi-toolbag-metrics": "0.2.0"
   }
 }
