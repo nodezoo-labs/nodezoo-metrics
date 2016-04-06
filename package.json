@@ -1,6 +1,6 @@
 {
   "name": "nodezoo-metrics",
-  "version": "0.0.1",
+  "version": "6.0.0",
   "license": "MIT",
   "description": "Metric collection for nodezoo",
   "author": "Dean McDonnell (http://mcdonnelldean.me)",
